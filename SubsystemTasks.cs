@@ -18,8 +18,21 @@ namespace Game
             ModsManager.RegisterHook("OnMinerPlace", this);
             ModsManager.RegisterHook("ProcessAttackment", this);
             ModsManager.RegisterHook("OnPickableCollected", this);
+            ModsManager.RegisterHook("OnMinerHit", this);
+            ModsManager.RegisterHook("OnProjectLoaded", this);
         }
+        public override void OnProjectLoaded(Project project)
+        {
+            m_subsystemTasks = project.FindSubsystem<SubsystemTasks>(true);
+        }
+        public override void OnMinerHit(ComponentMiner miner, ComponentBody componentBody, Vector3 hitPoint, Vector3 hitDirection, ref float attackPower, ref float playerProbability, ref float creatureProbability, out bool Hitted)
+        {
+            Hitted = false;
 
+            Log.Error("OnMinerHit");
+            ScreensManager.SwitchScreen(new TaskScreen());
+            Log.Error("OnMinerHit");
+        }
         public override bool OnPlayerSpawned(PlayerData.SpawnMode spawnMode, ComponentPlayer player, Vector3 position)
         {
             // 初始化新手任务
@@ -88,7 +101,7 @@ namespace Game
             m_subsystemPlayers = Project.FindSubsystem<SubsystemPlayers>(true);
             m_subsystemBlockBehaviors = Project.FindSubsystem<SubsystemBlockBehaviors>(true);
             m_subsystemPickables = Project.FindSubsystem<SubsystemPickables>(true);
-
+            Log.Error("加载任务配置开始");
             LoadTasksFromXml();
             LoadTaskProgress(valuesDictionary);
         }
