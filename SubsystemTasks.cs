@@ -31,7 +31,6 @@ namespace Game
 
             Log.Error("OnMinerHit");
             ScreensManager.SwitchScreen(new TaskScreen());
-            Log.Error("OnMinerHit");
         }
         public override bool OnPlayerSpawned(PlayerData.SpawnMode spawnMode, ComponentPlayer player, Vector3 position)
         {

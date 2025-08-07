@@ -1,0 +1,13 @@
+C:\Users\Administrator\source\repos\GameTasks\bin\Debug\net9.0\GameTasks.deps.json
+C:\Users\Administrator\source\repos\GameTasks\bin\Debug\net9.0\GameTasks.dll
+C:\Users\Administrator\source\repos\GameTasks\bin\Debug\net9.0\GameTasks.pdb
+C:\Users\Administrator\source\repos\GameTasks\obj\Debug\net9.0\GameTasks.csproj.AssemblyReference.cache
+C:\Users\Administrator\source\repos\GameTasks\obj\Debug\net9.0\GameTasks.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\source\repos\GameTasks\obj\Debug\net9.0\GameTasks.AssemblyInfoInputs.cache
+C:\Users\Administrator\source\repos\GameTasks\obj\Debug\net9.0\GameTasks.AssemblyInfo.cs
+C:\Users\Administrator\source\repos\GameTasks\obj\Debug\net9.0\GameTasks.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\GameTasks\obj\Debug\net9.0\GameTasks.sourcelink.json
+C:\Users\Administrator\source\repos\GameTasks\obj\Debug\net9.0\GameTasks.dll
+C:\Users\Administrator\source\repos\GameTasks\obj\Debug\net9.0\refint\GameTasks.dll
+C:\Users\Administrator\source\repos\GameTasks\obj\Debug\net9.0\GameTasks.pdb
+C:\Users\Administrator\source\repos\GameTasks\obj\Debug\net9.0\ref\GameTasks.dll
