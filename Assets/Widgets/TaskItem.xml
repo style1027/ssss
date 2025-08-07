@@ -1,0 +1,11 @@
+﻿<ContainerWidget xmlns="runtime-namespace:Game" Size="600,100">
+	<RectangleWidget Name="Background" FillColor="0,0,0,64" OutlineColor="80,80,80,128" />
+
+	<LabelWidget Name="Name" FontScale="1.2" Position="10,5" Color="255,255,255" />
+	<LabelWidget Name="Description" FontScale="0.8" Position="10,30" Color="200,200,200" />
+	<LabelWidget Name="Progress" FontScale="0.8" Position="10,55" Color="180,220,180" />
+	<LabelWidget Name="Reward" FontScale="0.8" Position="350,55" Color="220,200,100" />
+
+	<ButtonWidget Name="ClaimButton" Text="领取奖励" Position="480,35"
+                  Size="90,30" Style="{Styles/SmallButtonStyle}" IsVisible="false" />
+</ContainerWidget>

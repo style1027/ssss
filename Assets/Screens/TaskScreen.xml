@@ -1,0 +1,13 @@
+﻿<Screen xmlns="runtime-namespace:Game" BackgroundColor="0,0,0,192">
+	<CanvasWidget Size="800,600" HorizontalAlignment="Center" VerticalAlignment="Center">
+		<BevelledRectangleWidget Size="700,500" BevelSize="3" CenterColor="40,40,40,240" />
+
+		<LabelWidget Text="任务列表" FontScale="1.5" Position="300,20" Color="255,210,0" />
+
+		<ListPanelWidget Name="TasksList" Position="50,60" Size="600,380"
+                         Direction="Vertical" ItemSize="100" SelectionColor="60,60,60,128" />
+
+		<ButtonWidget Name="CloseButton" Text="关闭" Position="550,460"
+                      Size="100,30" Style="{Styles/ButtonStyle}" />
+	</CanvasWidget>
+</Screen>

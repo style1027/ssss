@@ -1,0 +1,6 @@
+<Task>
+    <SubsystemTemplate Name="Tasks" Description="管理游戏任务系统" Guid="5501a8d2-5c5e-4f8a-9b5d-5a7b8d5e6f7c" InheritanceParent="a3914c13-7801-46a6-b23a-9e2b36e9defb">
+        <Parameter Name="Class" Guid="6612b9e3-6d6f-4a9b-8c6e-6b8c7d9e0f1a" Value="Game.SubsystemTasks" Type="string" />
+        <Parameter Name="Dependencies" Guid="7723c0f4-7e70-4b0c-9d7f-7c9d8e0f1a2b" Value="Players,BlockBehaviors" Type="string" />
+    </SubsystemTemplate>
+</Task>

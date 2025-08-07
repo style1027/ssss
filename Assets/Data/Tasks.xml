@@ -1,0 +1,11 @@
+﻿<Tasks xmlns="runtime-namespace:Game">
+	<!-- 任务1：收集木材 -->
+	<Task Id="1" Name="初始收集" Description="收集5个木材方块" Reward="5x10, 248x5" Status="NotStarted">
+		<Requirement Type="Collect" Target="5" Amount="5" />
+	</Task>
+
+	<!-- 任务2：击杀狼 -->
+	<Task Id="2" Name="生存挑战" Description="击杀2只狼" Reward="278x1, 5x20" Status="NotStarted">
+		<Requirement Type="Kill" Target="Wolf" Amount="2" />
+	</Task>
+</Tasks>
